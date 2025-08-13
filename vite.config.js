@@ -8,7 +8,7 @@ export default defineConfig({
 		// Get rid of the CORS error
 		proxy: {
 			"/api/v1": {
-				target: "https://api.arakkha.tech",
+				target: "https://api.arakkha.tech/",
 				changeOrigin: true,
 				secure: false,
 			},
