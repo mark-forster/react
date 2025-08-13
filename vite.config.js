@@ -9,6 +9,7 @@ export default defineConfig({
 		proxy: {
 			"/api/v1": {
 				target: "https://api.arakkha.tech/",
+				target:"http://localhost:8000/",
 				changeOrigin: true,
 				secure: false,
 			},
